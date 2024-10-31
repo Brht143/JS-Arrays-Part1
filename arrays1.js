@@ -19,5 +19,5 @@ console.log(groceries);
 
 // Create a new array named `firstThreeItems` and it’s elements are the first three elements from the `groceries` array.
 deleteRange = groceries.length - 4;
-firstThreeItems = groceries.splice(0,deleteRange);
+firstThreeItems = groceries.slice(0,deleteRange);
 console.log(firstThreeItems);
